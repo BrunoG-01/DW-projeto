@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>JOINIX</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primaria: #1e293b;
+        --color-secundaria: #2563eb;
+        --color-terciaria: #06b6d4;
+        --color-claro: #3b82f6;
+        --color-escuro: #0f172a;
+      }
+    </style>
+  </head>
+  <body class="bg-primaria mx-auto">
+    <header class="flex items-center justify-between">
+      <img src="imagens/logo.png" alt="Logo do Joinix" class="h-28 m-4" />
+      <button class="bg-terciaria text-black hover:bg-secundaria transition-all rounded-lg m-4 h-10 w-45">Login</button>
+    </header><br><br>
+    <main class="container">
+      <div class="grid grid-cols-2 gap-8 items-center">
+        <div class="flex flex-col gap-6">
+          <h1 class="text-white text-5xl font-bold">
+            Cada vez mais próximo de seu ídolo
+          </h1>
+          <div class="bg-terciaria h-40 w-40 rounded-xl"></div>
+        </div>
+        <div>
+          <img src="imagens/imagem1.png" alt="Ilustração de fãs" class="w-full max-w-4xl h-auto"/>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
